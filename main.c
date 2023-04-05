@@ -3,7 +3,7 @@
 #include<string.h>
 
 #include"SymmEncryption/dsymec.h"
-void readfile(char *filesname);
+
 
 int main(int argc, char *argv[]){
     if(strcmp(argv[1], "-FileWrite") == 0){
