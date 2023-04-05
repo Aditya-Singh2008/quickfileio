@@ -19,18 +19,3 @@ int main(int argc, char *argv[]){
 
     return 0;
 }
-void readfile(char *filesname){
-  FILE *readfile = fopen(filesname, "r");
-  int input;
-
-  if(readfile == NULL){
-    printf("Enter a valid file name");
-    exit(1);
-  }
-
-  while((input = fgetc(readfile)) != EOF){
-    printf("%d ", input);
-  }
-  printf("-1\n");
-  fclose(readfile);
-}
