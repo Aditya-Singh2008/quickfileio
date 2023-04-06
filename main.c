@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[]){
     if(argc < 2){
-    	printf("Eneter Args");
+    	printf("Eneter Args\n");
     	return 1;
     }
 
