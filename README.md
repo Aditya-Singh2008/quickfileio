@@ -4,4 +4,4 @@ Code is the IO portion of my encryption project.
 
 Run the program:
 
-qfio [options (FileRead or FileWrite)] [File Name]
+qfio -[options (FileRead or FileWrite)] [File Name]
