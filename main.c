@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-#include"SymmEncryption/dsymec.h"
+#include"quifo/io.h"
 
 
 int main(int argc, char *argv[]){
